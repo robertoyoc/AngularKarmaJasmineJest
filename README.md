@@ -1,4 +1,29 @@
-# Karmaandjest
+# Angular Project
+Supports testing with Jest and karma.
+
+If you want a test to be executed by Karma:
+
+- Create a file with `.spec.ts` extension
+- Write some tests
+- Run `ng test`
+
+If you want a test to be executed by Jest:
+- Create a file with `.spec.jest.ts` extension
+- Write some tests
+- Run `jest`
+
+## Running Karma/Jasmine:
+![Karma](img/karma.png)
+
+## Running Jest:
+![Karma](img/jest.png)
+
+
+
+## Prerequisites
+- Node
+- Angular CLI (npm i -g @angular/cli)
+- Jest (npm i -g jest)
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 10.0.8.
 
@@ -17,6 +42,7 @@ Run `ng build` to build the project. The build artifacts will be stored in the `
 ## Running unit tests
 
 Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+Run `jest` to execute the unit tests via [Jest](https://jestjs.io/).
 
 ## Running end-to-end tests
 
