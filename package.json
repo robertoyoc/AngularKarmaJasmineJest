@@ -8,7 +8,7 @@
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e",
-    "jest": "jest"
+    "jest": "node node_modules/jest/bin/jest"
   },
   "private": true,
   "dependencies": {
